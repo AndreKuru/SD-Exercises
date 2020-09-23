@@ -1,0 +1,74 @@
+# do somador_subtrator_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {somador_subtrator.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity somador_subtrator
+# -- Compiling architecture structure of somador_subtrator
+# 
+vsim -do somador_subtrator_run_msim_gate_vhdl.do -l msim_transcript -i -sdftyp /=/home/kuru/UFSC/SD/QuartusProjects/exerc1/simulation/modelsim/somador_subtrator_vhd.sdo work.somador_subtrator
+# vsim -do somador_subtrator_run_msim_gate_vhdl.do -l msim_transcript -i -sdftyp /=/home/kuru/UFSC/SD/QuartusProjects/exerc1/simulation/modelsim/somador_subtrator_vhd.sdo work.somador_subtrator 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.somador_subtrator(structure)
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading instances from /home/kuru/UFSC/SD/QuartusProjects/exerc1/simulation/modelsim/somador_subtrator_vhd.sdo
+# Loading timing data from /home/kuru/UFSC/SD/QuartusProjects/exerc1/simulation/modelsim/somador_subtrator_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /somador_subtrator File: somador_subtrator.vho
+# do somador_subtrator_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {somador_subtrator.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity somador_subtrator
+# -- Compiling architecture structure of somador_subtrator
+# 
+add wave -position insertpoint  \
+sim:/somador_subtrator/A \
+sim:/somador_subtrator/B \
+sim:/somador_subtrator/S \
+sim:/somador_subtrator/cout \
+sim:/somador_subtrator/sel
+force -freeze sim:/somador_subtrator/A 11111111 0
+force -freeze sim:/somador_subtrator/B 11111111 0
+force -freeze sim:/somador_subtrator/sel 0 0
+run

@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/kuru/UFSC/SD/QuartusProjects/exerc1/simulation/modelsim
+Esomador_subtrator
+Z1 w1600902093
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneii 20 cycloneii_components 0 22 h@gSJ;Al32oYg[7^PbnAR0
+Z8 d/home/kuru/UFSC/SD/QuartusProjects/exerc1/simulation/modelsim
+Z9 8somador_subtrator.vho
+Z10 Fsomador_subtrator.vho
+l0
+L34
+V_llGoRXF93E3GAmAk]3[o3
+!s100 B]LQKYmLiAT8o8_ikUb510
+Z11 OV;C;10.1d;51
+31
+!i10b 1
+Z12 !s108 1600902114.120167
+Z13 !s90 -reportprogress|300|-93|-work|work|somador_subtrator.vho|
+Z14 !s107 somador_subtrator.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 17 somador_subtrator 0 22 _llGoRXF93E3GAmAk]3[o3
+l135
+L73
+VX5fbBfacODo0>Wgf9UB`=1
+!s100 c:24n9624<V_iCcJ4mj3n3
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16

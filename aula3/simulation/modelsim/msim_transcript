@@ -1,0 +1,205 @@
+# do ula_4flags_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /opt/altera/13.0sp1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {/home/kuru/UFSC/SD/QuartusProjects/aula3/ula.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ula
+# -- Compiling architecture comportamento_ula of ula
+# 
+vsim -do ula_4flags_run_msim_rtl_vhdl.do -l msim_transcript -i -sdftyp /=/home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo work.ula
+# vsim -do ula_4flags_run_msim_rtl_vhdl.do -l msim_transcript -i -sdftyp /=/home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo work.ula 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ula(comportamento_ula)
+# Loading instances from /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(246): Failed to find INSTANCE '\Add0~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(39): Failed to find INSTANCE '\Add0~10\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(417): Failed to find INSTANCE '\Add0~12\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(434): Failed to find INSTANCE '\Add0~14\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(451): Failed to find INSTANCE '\Add0~16\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(468): Failed to find INSTANCE '\Add0~18\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(269): Failed to find INSTANCE '\Add0~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(485): Failed to find INSTANCE '\Add0~20\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(502): Failed to find INSTANCE '\Add0~22\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(519): Failed to find INSTANCE '\Add0~24\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(923): Failed to find INSTANCE '\Add0~26\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(292): Failed to find INSTANCE '\Add0~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(315): Failed to find INSTANCE '\Add0~3\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(56): Failed to find INSTANCE '\Add0~4\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(347): Failed to find INSTANCE '\Add0~5\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(370): Failed to find INSTANCE '\Add0~6\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(393): Failed to find INSTANCE '\Add0~7\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(407): Failed to find INSTANCE '\Add0~9\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(982): Failed to find INSTANCE '\Equal0~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(835): Failed to find INSTANCE '\Equal0~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(998): Failed to find INSTANCE '\Equal0~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(700): Failed to find INSTANCE '\LessThan0~11\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(713): Failed to find INSTANCE '\LessThan0~13\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(726): Failed to find INSTANCE '\LessThan0~14\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(636): Failed to find INSTANCE '\LessThan0~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(648): Failed to find INSTANCE '\LessThan0~3\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(661): Failed to find INSTANCE '\LessThan0~5\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(674): Failed to find INSTANCE '\LessThan0~7\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(687): Failed to find INSTANCE '\LessThan0~9\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(184): Failed to find INSTANCE '\Mux0~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(216): Failed to find INSTANCE '\Mux0~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(232): Failed to find INSTANCE '\Mux0~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(536): Failed to find INSTANCE '\Mux0~3\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1046): Failed to find INSTANCE '\Mux1~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1060): Failed to find INSTANCE '\Mux1~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1076): Failed to find INSTANCE '\Mux1~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(739): Failed to find INSTANCE '\Mux2~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(755): Failed to find INSTANCE '\Mux2~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(771): Failed to find INSTANCE '\Mux2~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(70): Failed to find INSTANCE '\Mux3~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(84): Failed to find INSTANCE '\Mux3~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(566): Failed to find INSTANCE '\Mux3~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(132): Failed to find INSTANCE '\Mux4~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1014): Failed to find INSTANCE '\Mux4~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1030): Failed to find INSTANCE '\Mux4~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(849): Failed to find INSTANCE '\Mux5~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(863): Failed to find INSTANCE '\Mux5~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(879): Failed to find INSTANCE '\Mux5~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(100): Failed to find INSTANCE '\Mux6~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(116): Failed to find INSTANCE '\Mux6~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(966): Failed to find INSTANCE '\Mux6~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(787): Failed to find INSTANCE '\Mux7~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(803): Failed to find INSTANCE '\Mux7~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(819): Failed to find INSTANCE '\Mux7~2\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(909): Failed to find INSTANCE '\Mux8~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(936): Failed to find INSTANCE '\Mux8~1\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(895): Failed to find INSTANCE '\Mux9~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(148): Failed to find INSTANCE '\a[0]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(148): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(627): Failed to find INSTANCE '\a[1]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(627): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(618): Failed to find INSTANCE '\a[2]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(618): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(329): Failed to find INSTANCE '\a[3]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(329): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(600): Failed to find INSTANCE '\a[4]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(600): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(591): Failed to find INSTANCE '\a[5]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(591): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(582): Failed to find INSTANCE '\a[6]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(582): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(157): Failed to find INSTANCE '\a[7]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(157): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(384): Failed to find INSTANCE '\b[0]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(384): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(361): Failed to find INSTANCE '\b[1]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(361): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(338): Failed to find INSTANCE '\b[2]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(338): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(609): Failed to find INSTANCE '\b[3]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(609): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(306): Failed to find INSTANCE '\b[4]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(306): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(283): Failed to find INSTANCE '\b[5]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(283): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(260): Failed to find INSTANCE '\b[6]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(260): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(175): Failed to find INSTANCE '\b[7]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(175): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1122): Failed to find INSTANCE '\cout~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1122): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(952): Failed to find INSTANCE '\exS[8]\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1112): Failed to find INSTANCE '\negative~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1112): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(552): Failed to find INSTANCE '\overflow~0\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1092): Failed to find INSTANCE '\overflow~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1092): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1132): Failed to find INSTANCE '\s[0]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1132): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1142): Failed to find INSTANCE '\s[1]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1142): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1152): Failed to find INSTANCE '\s[2]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1152): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1162): Failed to find INSTANCE '\s[3]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1162): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1172): Failed to find INSTANCE '\s[4]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1172): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1182): Failed to find INSTANCE '\s[5]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1182): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1192): Failed to find INSTANCE '\s[6]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1192): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1202): Failed to find INSTANCE '\s[7]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1202): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(166): Failed to find INSTANCE '\sel[0]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(166): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(207): Failed to find INSTANCE '\sel[1]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(207): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(198): Failed to find INSTANCE '\sel[2]~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(198): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1102): Failed to find INSTANCE '\zero~I\'.
+# ** Error: (vsim-SDF-3250) /home/kuru/UFSC/SD/QuartusProjects/aula3/simulation/modelsim/ula_4flags_vhd.sdo(1102): Failed to find INSTANCE 'asynch_inst'.
+# ** Error: (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# ** Fatal: SDF files require Altera primitive library
+#    Time: 0 ps  Iteration: 0  Instance: /ula File: /home/kuru/UFSC/SD/QuartusProjects/aula3/ula.vhd Line: UNKNOWN
+# FATAL ERROR while loading design
+# Error loading design
+vsim work.ula
+# vsim work.ula 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.ula(comportamento_ula)
+add wave -position insertpoint  \
+sim:/ula/a \
+sim:/ula/b \
+sim:/ula/cout \
+sim:/ula/negative \
+sim:/ula/overflow \
+sim:/ula/s \
+sim:/ula/sel \
+sim:/ula/zero
+force -freeze sim:/ula/a 01111111 0
+force -freeze sim:/ula/b 01111111 0
+force -freeze sim:/ula/sel 000 0
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /ula
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /ula
+run
+run
+run
+restart
+force -freeze sim:/ula/sel 100 0
+run
+force -freeze sim:/ula/b 00000001 0
+run
+force -freeze sim:/ula/sel 000 0
+run
+# WARNING: No extended dataflow license exists
+run
+run
+run
+force -freeze sim:/ula/b 00000000 0
+run
+force -freeze sim:/ula/a 11111111 0
+force -freeze sim:/ula/b 00000001 0
+run
+restart
