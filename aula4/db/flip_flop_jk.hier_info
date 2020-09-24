@@ -1,0 +1,9 @@
+|flip_flop_jk
+J => Mux0.IN4
+K => Mux0.IN5
+clk => notQ~reg0.CLK
+clk => Q~reg0.CLK
+Q << Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+notQ << notQ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
