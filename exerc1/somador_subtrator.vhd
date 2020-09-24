@@ -13,9 +13,8 @@ end somador_subtrator;
 architecture comportamento of somador_subtrator is
     Signal exA, exB, exS: std_logic_vector(n downto 0);
 begin
-
-    exA <=  A(n-1) & A;
-    exB <=  B(n-1) & B;
+    exA <=  '0' & A;
+    exB <=  '0' & B;
 
     exS <=  exA + exB               when sel = '0' else
             exA + ((not exB) + sel);
